@@ -2,6 +2,10 @@
 
 A modern, responsive portfolio website showcasing my iOS applications and development work.
 
+## Live Site
+
+🌐 **[https://andrej-jasso.github.io/Bio/](https://andrej-jasso.github.io/Bio/)**
+
 ## About
 
 This is my personal portfolio website that highlights the various mobile applications I've developed. The site features a clean, modern design with smooth animations and responsive layouts that work across all devices.
@@ -35,6 +39,7 @@ This is my personal portfolio website that highlights the various mobile applica
 - 💫 Interactive hover effects
 - 🚀 Fast and lightweight
 - ♿ Accessibility-friendly
+- 🔍 SEO optimized with Open Graph tags
 
 ## Local Development
 
@@ -42,22 +47,7 @@ Simply open `index.html` in your web browser. No build process or dependencies r
 
 ## Deployment
 
-This site can be deployed to:
-- GitHub Pages
-- Netlify
-- Vercel
-- Any static hosting service
-
-### GitHub Pages Deployment
-
-1. Push this repository to GitHub
-2. Go to repository Settings
-3. Navigate to Pages section
-4. Select the branch (usually `main` or `master`)
-5. Set the folder to `/` (root)
-6. Click Save
-
-Your site will be available at `https://yourusername.github.io/repository-name/`
+This site is deployed on GitHub Pages and automatically updates when changes are pushed to the main branch.
 
 ## Customization
 
