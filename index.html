@@ -45,31 +45,27 @@
     </section>
 
     <section id="apps" class="section featured-app">
-        <div class="container-wide">
-            <h2 class="section-title">Featured App</h2>
-            
-            <div class="featured-hero">
-                <div class="featured-visual">
-                    <div class="breath-circle">
-                        <svg viewBox="0 0 200 200" class="breathing-animation">
-                            <defs>
-                                <linearGradient id="breathGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
-                                </linearGradient>
-                            </defs>
-                            <circle cx="100" cy="100" r="80" fill="url(#breathGradient)" opacity="0.2" class="pulse-circle"/>
-                            <circle cx="100" cy="100" r="60" fill="url(#breathGradient)" opacity="0.4" class="pulse-circle pulse-delay-1"/>
-                            <circle cx="100" cy="100" r="40" fill="url(#breathGradient)" opacity="0.6" class="pulse-circle pulse-delay-2"/>
-                        </svg>
-                        <div class="breath-icon">🌬️</div>
+        <div class="featured-hero-wrapper">
+            <div class="featured-image-section">
+                <div class="featured-image-container">
+                    <img src="images/respiaLadyIcePlunge.png" alt="Respia - Cold Exposure" class="featured-hero-image">
+                    <div class="image-overlay"></div>
+                    <div class="floating-app-icon">
+                        <img src="images/respia.png" alt="Respia App Icon" class="app-icon-image">
                     </div>
                 </div>
-                
+            </div>
+            
+            <div class="featured-content-section">
                 <div class="featured-content">
-                    <div class="app-badge">Now Available</div>
-                    <h3 class="featured-name">Respia</h3>
+                    <div class="app-badge">
+                        <span class="badge-dot"></span>
+                        Now Available on App Store
+                    </div>
+                    
+                    <h2 class="featured-name">Respia</h2>
                     <p class="featured-tagline">Master the Wim Hof Breathing Method</p>
+                    
                     <p class="featured-description">
                         Transform your health and wellness with scientifically-backed breathing techniques. 
                         Beautiful Metal-powered animations guide you through each session with precision and elegance. 
@@ -78,29 +74,37 @@
                     
                     <div class="featured-highlights">
                         <div class="highlight-item">
-                            <span class="highlight-icon">✨</span>
-                            <div>
+                            <div class="highlight-icon-wrapper">
+                                <span class="highlight-icon">✨</span>
+                            </div>
+                            <div class="highlight-content">
                                 <h4>Metal Animations</h4>
                                 <p>Gorgeous ripple effects during transitions</p>
                             </div>
                         </div>
                         <div class="highlight-item">
-                            <span class="highlight-icon">🔥</span>
-                            <div>
+                            <div class="highlight-icon-wrapper">
+                                <span class="highlight-icon">🔥</span>
+                            </div>
+                            <div class="highlight-content">
                                 <h4>Habit Tracker</h4>
                                 <p>Daily streaks & motivational messages</p>
                             </div>
                         </div>
                         <div class="highlight-item">
-                            <span class="highlight-icon">❄️</span>
-                            <div>
+                            <div class="highlight-icon-wrapper">
+                                <span class="highlight-icon">❄️</span>
+                            </div>
+                            <div class="highlight-content">
                                 <h4>Cold Exposure</h4>
                                 <p>Track ice baths with photos & history</p>
                             </div>
                         </div>
                         <div class="highlight-item">
-                            <span class="highlight-icon">📱</span>
-                            <div>
+                            <div class="highlight-icon-wrapper">
+                                <span class="highlight-icon">📱</span>
+                            </div>
+                            <div class="highlight-content">
                                 <h4>Apple Watch</h4>
                                 <p>Practice anywhere, anytime</p>
                             </div>
@@ -109,11 +113,16 @@
                     
                     <div class="featured-buttons">
                         <a href="https://apps.apple.com/sk/app/respia/id6754191542" class="btn-primary" target="_blank">
-                            <span class="btn-icon">📲</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm.5-13H9v6l5.25 3.15.75-1.23-4.5-2.67V5z"/>
+                            </svg>
                             Download on App Store
                         </a>
                         <a href="https://meteora8888.github.io/Respia/" class="btn-secondary" target="_blank">
-                            Learn More →
+                            Learn More
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M8 0L6.59 1.41L12.17 7H0v2h12.17l-5.58 5.59L8 16l8-8z"/>
+                            </svg>
                         </a>
                     </div>
                     
@@ -122,10 +131,12 @@
                             <span class="stat-value">4+</span>
                             <span class="stat-label">Age Rating</span>
                         </div>
+                        <div class="stat-divider"></div>
                         <div class="stat">
                             <span class="stat-value">iOS 17+</span>
                             <span class="stat-label">Compatible</span>
                         </div>
+                        <div class="stat-divider"></div>
                         <div class="stat">
                             <span class="stat-value">Free</span>
                             <span class="stat-label">With IAP</span>
