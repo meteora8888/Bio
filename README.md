@@ -17,7 +17,7 @@ This is my personal portfolio website that highlights the various mobile applica
 Premium iOS app for guided breathing exercises and meditation with Metal-powered animations, habit tracking, and Apple Watch support.
 
 🔗 **[Visit Respia Website](https://meteora8888.github.io/Respia/)**  
-📱 **[Download on App Store](https://apps.apple.com/app/respia)**
+📱 **[Download on App Store](https://apps.apple.com/sk/app/respia/id6754191542)**
 
 ## Projects in Development
 
