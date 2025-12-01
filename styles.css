@@ -231,7 +231,7 @@ body {
 .featured-content-section {
     display: flex;
     align-items: center;
-    padding: 60px 50px;
+    padding: 80px 60px;
     background: rgba(15, 23, 42, 0.6);
     backdrop-filter: blur(20px);
     max-height: 90vh;
@@ -653,7 +653,7 @@ body {
 
     .featured-content-section {
         order: 2;
-        padding: 50px 40px;
+        padding: 60px 40px;
         max-height: none;
     }
 
@@ -717,7 +717,7 @@ body {
     }
 
     .featured-content-section {
-        padding: 40px 30px;
+        padding: 50px 30px;
         max-height: none;
     }
 
@@ -787,7 +787,7 @@ body {
     }
 
     .featured-content-section {
-        padding: 35px 20px;
+        padding: 40px 25px;
         max-height: none;
     }
 
