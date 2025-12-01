@@ -72,5 +72,5 @@ Feel free to customize:
 
 ## Contact
 
-For inquiries, please reach out via email at contact@andrejjasso.com
+For inquiries, please reach out via email at andrejjasso.mail@gmail.com
 
