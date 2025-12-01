@@ -403,6 +403,43 @@ body {
 }
 
 /* Responsive Design */
+@media (max-width: 1024px) {
+    .featured-hero {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .featured-visual {
+        order: 2;
+    }
+
+    .featured-content {
+        order: 1;
+        text-align: center;
+    }
+
+    .breath-circle {
+        width: 300px;
+        height: 300px;
+    }
+
+    .breath-icon {
+        font-size: 6rem;
+    }
+
+    .featured-highlights {
+        grid-template-columns: 1fr;
+    }
+
+    .featured-buttons {
+        justify-content: center;
+    }
+
+    .app-stats {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 768px) {
     .hero-title {
         font-size: 2.5rem;
@@ -429,30 +466,44 @@ body {
         align-items: center;
     }
 
-    .featured-card {
-        padding: 2rem;
+    .featured-app {
+        padding: 60px 0;
     }
 
     .featured-name {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     .featured-tagline {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
-    .featured-icon {
-        font-size: 4rem;
+    .breath-circle {
+        width: 250px;
+        height: 250px;
+    }
+
+    .breath-icon {
+        font-size: 5rem;
     }
 
     .featured-buttons {
         flex-direction: column;
+        width: 100%;
     }
 
     .btn-primary,
     .btn-secondary {
         width: 100%;
-        text-align: center;
+        justify-content: center;
+    }
+
+    .app-stats {
+        gap: 2rem;
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
     }
 }
 
@@ -473,21 +524,56 @@ body {
         font-size: 0.9rem;
     }
 
-    .featured-card {
-        padding: 1.5rem;
+    .featured-app {
+        padding: 40px 0;
     }
 
     .featured-name {
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .featured-tagline {
+        font-size: 1rem;
     }
 
     .featured-description {
         font-size: 1rem;
     }
 
-    .feature-badge {
-        font-size: 0.8rem;
-        padding: 0.4rem 0.8rem;
+    .breath-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .breath-icon {
+        font-size: 4rem;
+    }
+
+    .highlight-item {
+        padding: 1rem;
+    }
+
+    .highlight-icon {
+        font-size: 1.5rem;
+    }
+
+    .highlight-item h4 {
+        font-size: 1rem;
+    }
+
+    .highlight-item p {
+        font-size: 0.85rem;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        padding: 1rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .app-stats {
+        flex-wrap: wrap;
+        gap: 1.5rem;
     }
 }
 

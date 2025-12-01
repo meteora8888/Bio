@@ -23,7 +23,7 @@ Premium iOS app for guided breathing exercises and meditation with Metal-powered
 
 - **FoodFlow** - AI-powered meal tracking and nutrition management
 - **HappyHabits** - Habit tracking and routine management
-- **ExpiryFairy** - Food expiration date tracker
+- **ExpiryFairy** - Document expiration tracker (licenses, passports, certifications)
 - **FastFlow** - Productivity and workflow app
 - **Ambi** - Ambient sounds and music app
 - **Lovely** - Relationship app for couples
