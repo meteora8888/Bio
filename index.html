@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Andrej Jasso - iOS Developer & App Creator">
+    <meta name="description" content="Andrej Jasso - iOS Developer. Creator of Respia, the premium Wim Hof breathing app for iOS.">
     <meta property="og:title" content="Andrej Jasso - iOS Developer & App Creator">
-    <meta property="og:description" content="Building innovative mobile applications that enhance everyday life">
+    <meta property="og:description" content="Creator of Respia - Master the Wim Hof Breathing Method. Building innovative mobile applications for health and productivity.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://meteora8888.github.io/Bio/">
+    <meta name="keywords" content="iOS developer, Respia, Wim Hof breathing, meditation app, SwiftUI, Apple Watch">
     <title>Andrej Jasso - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -43,55 +44,149 @@
         </div>
     </section>
 
-    <section id="apps" class="section apps">
+    <section id="apps" class="section featured-app">
+        <div class="container-wide">
+            <h2 class="section-title">Featured App</h2>
+            
+            <div class="featured-hero">
+                <div class="featured-visual">
+                    <div class="breath-circle">
+                        <svg viewBox="0 0 200 200" class="breathing-animation">
+                            <defs>
+                                <linearGradient id="breathGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="100" cy="100" r="80" fill="url(#breathGradient)" opacity="0.2" class="pulse-circle"/>
+                            <circle cx="100" cy="100" r="60" fill="url(#breathGradient)" opacity="0.4" class="pulse-circle pulse-delay-1"/>
+                            <circle cx="100" cy="100" r="40" fill="url(#breathGradient)" opacity="0.6" class="pulse-circle pulse-delay-2"/>
+                        </svg>
+                        <div class="breath-icon">🌬️</div>
+                    </div>
+                </div>
+                
+                <div class="featured-content">
+                    <div class="app-badge">Now Available</div>
+                    <h3 class="featured-name">Respia</h3>
+                    <p class="featured-tagline">Master the Wim Hof Breathing Method</p>
+                    <p class="featured-description">
+                        Transform your health and wellness with scientifically-backed breathing techniques. 
+                        Beautiful Metal-powered animations guide you through each session with precision and elegance. 
+                        Track your progress, build daily streaks, and integrate seamlessly with Apple Health.
+                    </p>
+                    
+                    <div class="featured-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">✨</span>
+                            <div>
+                                <h4>Metal Animations</h4>
+                                <p>Gorgeous ripple effects during transitions</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">🔥</span>
+                            <div>
+                                <h4>Habit Tracker</h4>
+                                <p>Daily streaks & motivational messages</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">❄️</span>
+                            <div>
+                                <h4>Cold Exposure</h4>
+                                <p>Track ice baths with photos & history</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">📱</span>
+                            <div>
+                                <h4>Apple Watch</h4>
+                                <p>Practice anywhere, anytime</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-buttons">
+                        <a href="https://apps.apple.com/sk/app/respia/id6754191542" class="btn-primary" target="_blank">
+                            <span class="btn-icon">📲</span>
+                            Download on App Store
+                        </a>
+                        <a href="https://meteora8888.github.io/Respia/" class="btn-secondary" target="_blank">
+                            Learn More →
+                        </a>
+                    </div>
+                    
+                    <div class="app-stats">
+                        <div class="stat">
+                            <span class="stat-value">4+</span>
+                            <span class="stat-label">Age Rating</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">iOS 17+</span>
+                            <span class="stat-label">Compatible</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">Free</span>
+                            <span class="stat-label">With IAP</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section projects">
         <div class="container">
-            <h2 class="section-title">My Apps</h2>
+            <h2 class="section-title">Projects in Development</h2>
+            <p class="projects-subtitle">Upcoming apps currently in active development</p>
+            
             <div class="apps-grid">
                 
-                <div class="app-card">
-                    <div class="app-icon">🫁</div>
-                    <h3 class="app-name">Respi</h3>
-                    <p class="app-description">A comprehensive breathing and meditation app designed to help users improve their respiratory health and mindfulness practice.</p>
-                    <a href="https://respi.app" class="app-link" target="_blank">Learn More →</a>
-                </div>
-
-                <div class="app-card">
+                <div class="app-card dev">
+                    <div class="dev-badge">In Development</div>
                     <div class="app-icon">🍽️</div>
                     <h3 class="app-name">FoodFlow</h3>
                     <p class="app-description">Smart meal tracking and nutrition management powered by AI. Plan your meals, track nutrition, and achieve your health goals.</p>
                 </div>
 
-                <div class="app-card">
+                <div class="app-card dev">
+                    <div class="dev-badge">In Development</div>
                     <div class="app-icon">✨</div>
                     <h3 class="app-name">HappyHabits</h3>
                     <p class="app-description">Build positive habits and track your daily routines. A beautiful habit tracker that helps you stay consistent and motivated.</p>
                 </div>
 
-                <div class="app-card">
+                <div class="app-card dev">
+                    <div class="dev-badge">In Development</div>
                     <div class="app-icon">🧚</div>
                     <h3 class="app-name">ExpiryFairy</h3>
-                    <p class="app-description">Never let food go to waste again. Track expiration dates and get timely reminders for all your groceries and products.</p>
+                    <p class="app-description">Never miss an expiration date. Track important documents, licenses, passports, and certifications with timely reminders.</p>
                 </div>
 
-                <div class="app-card">
+                <div class="app-card dev">
+                    <div class="dev-badge">In Development</div>
                     <div class="app-icon">⚡</div>
                     <h3 class="app-name">FastFlow</h3>
                     <p class="app-description">Streamline your workflow with this productivity app designed for speed and efficiency.</p>
                 </div>
 
-                <div class="app-card">
+                <div class="app-card dev">
+                    <div class="dev-badge">In Development</div>
                     <div class="app-icon">🎵</div>
                     <h3 class="app-name">Ambi</h3>
                     <p class="app-description">Immersive ambient sounds and music to enhance focus, relaxation, and creativity.</p>
                 </div>
 
-                <div class="app-card">
+                <div class="app-card dev">
+                    <div class="dev-badge">In Development</div>
                     <div class="app-icon">💝</div>
                     <h3 class="app-name">Lovely</h3>
                     <p class="app-description">A thoughtful app for couples to stay connected and strengthen their relationships.</p>
                 </div>
 
-                <div class="app-card">
+                <div class="app-card dev">
+                    <div class="dev-badge">In Development</div>
                     <div class="app-icon">🏠</div>
                     <h3 class="app-name">HomeScan</h3>
                     <p class="app-description">Scan and organize your home inventory with ease. Keep track of your belongings and their details.</p>

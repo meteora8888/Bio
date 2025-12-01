@@ -10,9 +10,17 @@ A modern, responsive portfolio website showcasing my iOS applications and develo
 
 This is my personal portfolio website that highlights the various mobile applications I've developed. The site features a clean, modern design with smooth animations and responsive layouts that work across all devices.
 
-## Featured Apps
+## Featured App
 
-- **Respi** - Breathing and meditation app ([respi.app](https://respi.app))
+### 🌬️ Respia - Master the Wim Hof Breathing Method
+
+Premium iOS app for guided breathing exercises and meditation with Metal-powered animations, habit tracking, and Apple Watch support.
+
+🔗 **[Visit Respia Website](https://meteora8888.github.io/Respia/)**  
+📱 **[Download on App Store](https://apps.apple.com/app/respia)**
+
+## Projects in Development
+
 - **FoodFlow** - AI-powered meal tracking and nutrition management
 - **HappyHabits** - Habit tracking and routine management
 - **ExpiryFairy** - Food expiration date tracker
