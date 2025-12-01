@@ -4,7 +4,7 @@ A modern, responsive portfolio website showcasing my iOS applications and develo
 
 ## Live Site
 
-🌐 **[https://andrej-jasso.github.io/Bio/](https://andrej-jasso.github.io/Bio/)**
+🌐 **[https://meteora8888.github.io/Bio/](https://meteora8888.github.io/Bio/)**
 
 ## About
 
